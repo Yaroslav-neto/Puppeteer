@@ -1,0 +1,41 @@
+/package-lock.json
+node_modules/
+
+# ==== Зависимости и сборка ====
+/node_modules/
+/dist/
+/build/
+/coverage/
+*.min.js
+*.min.css
+
+# ==== Файлы окружения ====
+.env
+.env.local
+.env.*.local
+
+# ==== Логи и кэш ====
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.cache/
+.eslintcache
+
+# ==== Настройки IDE (VS Code) ====
+.vscode/         # Исключает папку с настройками VS Code
+!.vscode/settings.json  # Но можно разрешить общие настройки (опционально)
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+
+# ==== Системные файлы ====
+.DS_Store
+thumbs.db
+Desktop.ini
+
+# ==== Другое ====
+/package-lock.json  # Если используете Yarn или pnpm
+yarn.lock
+pnpm-lock.yaml
+
